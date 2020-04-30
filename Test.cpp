@@ -2,9 +2,9 @@
 #include "doctest.h"
 
 TEST_CASE("for test") {
-    solver::ComplexVariable t;
+    solver::RealVariable x;
     for (int i = 0; i <= 100; i++) 
     {
-     CHECK(solver::solve(4*x-8==6));
+     CHECK(solver::solve(4*x-8==2));
     }
 }
